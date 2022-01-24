@@ -1,4 +1,4 @@
-# Veterinaria-Scoob-Doo
+# Veterinaria-Scooby-Doo
 
 
 Projeto desenvolvido em parceria com o colega Allan Fraga durtante a matéria de "OFICINA DE INTEGRAÇÃO 1" do curso de "BACHARELADO EM ENGENHARIA DE SOFTWARE" da Universidade Tecnológica Federal do Paraná(UTFPR) durante o periodo de 2017/2(Julho-Dezembro).
