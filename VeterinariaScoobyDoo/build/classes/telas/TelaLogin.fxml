@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="468.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.TelaLoginController">
+   <children>
+      <Button fx:id="btnLogar" layoutX="317.0" layoutY="171.0" mnemonicParsing="false" onAction="#onClickBtnLogar" prefHeight="51.0" prefWidth="98.0" text="Logar" textFill="#0a0000">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <TextField fx:id="txtNomeUsuario" layoutX="233.0" layoutY="71.0" prefHeight="25.0" prefWidth="266.0" />
+      <PasswordField fx:id="txtSenhaUsuario" layoutX="233.0" layoutY="121.0" prefHeight="25.0" prefWidth="266.0" />
+      <Label layoutX="130.0" layoutY="67.0" prefHeight="25.0" prefWidth="59.0" text="Login" textFill="#170404">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="117.0" text="Senha" textFill="#170303">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="211.0" fitWidth="545.0" layoutX="400.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/tela%20login%20animais.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="208.0" fitWidth="254.0" layoutX="691.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/9fcc2fe550dd689e79e59819f50e8705.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>

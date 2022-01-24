@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.TelaCadastroAnimais">
+   <children>
+      <Label layoutX="334.0" layoutY="16.0" text="Cadastro de Animais">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lblNome" layoutX="110.0" layoutY="139.0" prefHeight="25.0" prefWidth="324.0" />
+      <TextField fx:id="lblRaca" layoutX="110.0" layoutY="188.0" prefHeight="25.0" prefWidth="324.0" />
+      <TextField fx:id="lblIdade" layoutX="110.0" layoutY="234.0" prefHeight="25.0" prefWidth="103.0" />
+      <Label layoutX="31.0" layoutY="93.0" text="Espécie" />
+      <Label layoutX="31.0" layoutY="143.0" text="Nome" />
+      <Label layoutX="31.0" layoutY="192.0" text="Raça" />
+      <Label layoutX="31.0" layoutY="238.0" text="Idade" />
+      <Label layoutX="31.0" layoutY="286.0" text="Dono" />
+      <Button fx:id="Cadastrar" layoutX="316.0" layoutY="346.0" mnemonicParsing="false" onAction="#onClickCadastrar" prefHeight="63.0" prefWidth="141.0" text="Cadastrar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Voltar" layoutX="154.0" layoutY="374.0" mnemonicParsing="false" onAction="#onClickVoltar" prefHeight="35.0" prefWidth="95.0" text="Voltar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="367.0" fitWidth="399.0" layoutX="527.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/cadastroAnimais.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="cbEspecie" layoutX="109.0" layoutY="89.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbDono" layoutX="109.0" layoutY="282.0" prefWidth="150.0" />
+   </children>
+</Pane>
