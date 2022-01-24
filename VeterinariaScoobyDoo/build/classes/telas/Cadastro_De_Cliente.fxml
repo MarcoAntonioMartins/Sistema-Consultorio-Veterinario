@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.TelaCadastroClientes">
+   <children>
+      <Button fx:id="Cadastrar" layoutX="385.0" layoutY="366.0" mnemonicParsing="false" onAction="#onClickCadastrar" prefHeight="66.0" prefWidth="149.0" text="Cadastrar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="27.0" layoutY="102.0" text="Nome" />
+      <TextField fx:id="lblNome" layoutX="88.0" layoutY="98.0" prefHeight="25.0" prefWidth="419.0" />
+      <TextField fx:id="lblRg" layoutX="88.0" layoutY="142.0" />
+      <TextField fx:id="lblCpf" layoutX="88.0" layoutY="185.0" />
+      <TextField fx:id="lblEndereco" layoutX="88.0" layoutY="226.0" prefHeight="25.0" prefWidth="419.0" />
+      <TextField fx:id="lblTelefone" layoutX="88.0" layoutY="269.0" />
+      <Label layoutX="27.0" layoutY="146.0" text="RG" />
+      <Label layoutX="27.0" layoutY="189.0" text="CPF" />
+      <Label layoutX="27.0" layoutY="230.0" text="Endereço" />
+      <Label layoutX="27.0" layoutY="273.0" text="Telefone" />
+      <TextField fx:id="lblCelular" layoutX="338.0" layoutY="269.0" prefHeight="25.0" prefWidth="169.0" />
+      <Label layoutX="292.0" layoutY="273.0" text="Celular" />
+      <Label layoutX="341.0" layoutY="14.0" text="Cadastro de Cliente">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="Voltar" layoutX="203.0" layoutY="397.0" mnemonicParsing="false" onAction="#onClickVoltar" prefHeight="35.0" prefWidth="95.0" text="Voltar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="34.0" layoutY="318.0" text="Email" />
+      <TextField fx:id="lblEmail" layoutX="88.0" layoutY="314.0" prefHeight="25.0" prefWidth="256.0" />
+      <ImageView fitHeight="435.0" fitWidth="316.0" layoutX="592.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Imagem_Cliente.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
